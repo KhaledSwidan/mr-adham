@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+  padding: 0px;
+}
+.facts .count-box {
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s ease-in-out;
+}
+.facts .count-box:hover {
+  background-color: #d9d9d9;
+  border-radius: 0.3rem;
+  transform: scale(1.02);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 8px #d9d9d9;
+}
+.facts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #149ddd;
+  float: left;
+  line-height: 0;
+  margin-bottom: 20px;
+}
+.facts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #050d18;
+}
+.facts .count-box p {
+  padding: 15px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #122f57;
+}
